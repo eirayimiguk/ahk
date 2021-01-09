@@ -1,20 +1,12 @@
 ; main.ahk
 ; Author: car7ary
 
-#Include IME.ahk
+; Libs
+#Include libs/IME.ahk
 
-; --------------------------------
-; * General
-; --------------------------------
-LAlt up::IME_SET(0)
-RAlt up::IME_SET(1)
+; General
+#Include config/general.ahk
 
-; --------------------------------
-; * Celeste
-; --------------------------------
-#IfWinActive,ahk_exe celeste.exe
-w::Up
-a::Left
-s::Down
-d::Right
-#IfWinActive
+; Games
+#Include config/games/celeste.ahk ; Celeste
+#Include config/games/twh.ahk ; The Witch's House MV
