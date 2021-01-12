@@ -10,4 +10,3 @@
 ; Games
 #Include config/games/celeste.ahk ; Celeste
 #Include config/games/twh.ahk ; The Witch's House
-#Include config/games/twhmv.ahk ; The Witch's House MV
