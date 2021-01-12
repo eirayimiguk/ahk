@@ -1,4 +1,9 @@
 ; --------------------------------
 ; * The Witch's House MV
 ; --------------------------------
-; Do something
+#IfWinActive,ahk_exe game.exe
+w::Up
+a::Left
+s::Down
+d::Right
+#IfWinActive
