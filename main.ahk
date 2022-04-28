@@ -15,3 +15,4 @@
 
 ; Softwares
 #Include config/softwares/clip_studio_paint.ahk
+
